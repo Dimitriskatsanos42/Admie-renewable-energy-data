@@ -3,12 +3,9 @@
 Αυτό το repository περιέχει Python scripts και εργαλεία για ανάλυση δεδομένων παραγωγής ανανεώσιμης ενέργειας στην Ελλάδα από τον διαχειριστή ADMIE (data.gov.gr). Το repository χρησιμοποιείται για βασική και προχωρημένη ανάλυση χρονοσειρών, ανίχνευση ανωμαλιών, και εποχικότητα.
 
 ---
-## Οδηγίες Χρήσης
 
-1. **Clone το repository:**
-```bash
-git clone https://github.com/<username>/admie-renewable-energy-data.git
-cd admie-renewable-energy-data
+## Δομή Repository
+
 
 ---
 
@@ -62,4 +59,9 @@ cd admie-renewable-energy-data
 
 ---
 
+## Οδηγίες Χρήσης
 
+1. **Clone το repository:**
+```bash
+git clone https://github.com/<username>/admie-renewable-energy-data.git
+cd admie-renewable-energy-data
