@@ -34,8 +34,6 @@
   - Plots: `decomposition.png`, `weekly_patterns.png`, `forecast.png`  
   - CSV: `metrics.csv` (MAE & RMSE)
 
----
-
 ### **2. analysis_advanced.py**
 - **Τι κάνει:**  
   - Heatmap παραγωγής ανά ώρα και ημέρα  
@@ -45,8 +43,6 @@
   - Plots: `heatmap_energy.png`, `rolling_stats.png`, `anomalies.png`  
   - CSV: `anomalies.csv`
 
----
-
 ### **3. program.py**
 - **Τι κάνει:**  
   - Ανάλυση παραγωγής ανά πηγή ενέργειας (energy source)  
@@ -55,8 +51,6 @@
   - Seasonal trends στη κονσόλα
 - **Τι παράγει:**  
   - Plots: `total_production.png`, `monthly_trends.png`
-
----
 
 ### **4. energy.py**
 - **Τι κάνει:**  
@@ -86,6 +80,3 @@
 Όλες οι βιβλιοθήκες μπορούν να εγκατασταθούν μέσω του `requirements.txt`:
 ```bash
 pip install -r requirements.txt
-
-git clone https://github.com/<username>/admie-renewable-energy-data.git
-cd admie-renewable-energy-data
