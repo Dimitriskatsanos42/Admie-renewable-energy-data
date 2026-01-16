@@ -15,8 +15,6 @@
 | `scripts/analysis_advanced.py` | Προχωρημένη ανάλυση: heatmap, rolling statistics, ανίχνευση ανωμαλιών |
 | `scripts/program.py`       | Ανάλυση ανά energy source και μηνιαία trends |
 | `scripts/energy.py`        | Data cleaning, ανίχνευση outliers, hourly & monthly patterns, trend analysis |
-| `requirements.txt`         | Απαιτούμενες Python βιβλιοθήκες |
-| `.gitignore`               | Αγνοεί outputs, cache, virtual envs, logs |
 | `README.md`                | Οδηγός χρήσης και περιγραφή του repository |
 
 ---
