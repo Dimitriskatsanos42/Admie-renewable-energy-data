@@ -3,6 +3,21 @@
 Αυτό το repository περιέχει Python scripts και εργαλεία για ανάλυση δεδομένων παραγωγής ανανεώσιμης ενέργειας στην Ελλάδα από τον διαχειριστή ADMIE (data.gov.gr). Το repository χρησιμοποιείται για βασική και προχωρημένη ανάλυση χρονοσειρών, ανίχνευση ανωμαλιών και μελέτη της εποχικότητας παραγωγής.
 
 ---
+## 📂 Δομή Repository
+
+| Φάκελος / Αρχείο           | Περιγραφή |
+|----------------------------|-----------|
+| `data/`                    | Αρχεία CSV με raw δεδομένα παραγωγής (hourly MWh) |
+| `outputs/`                 | Όλα τα plots και CSV outputs που παράγονται από τα scripts |
+| `scripts/analysis.py`      | Βασική ανάλυση χρονοσειρών: decomposition, weekly patterns, forecasts |
+| `scripts/analysis_advanced.py` | Προχωρημένη ανάλυση: heatmap, rolling statistics, ανίχνευση anomalies |
+| `scripts/program.py`       | Ανάλυση ανά energy source και μηνιαία trends |
+| `scripts/energy.py`        | Data cleaning, outliers, hourly & monthly patterns, trend analysis |
+| `requirements.txt`         | Απαιτούμενες Python βιβλιοθήκες |
+| `.gitignore`               | Αγνοεί outputs, cache, virtual envs |
+| `README.md`                | Οδηγός χρήσης και περιγραφή του repository |
+
+---
 
 ## Περιγραφή Scripts
 
