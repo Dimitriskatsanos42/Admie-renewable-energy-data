@@ -75,8 +75,12 @@
 
 **Προαιρετικά για advanced visualizations:**  
 - seaborn  
-- plotly  
+- plotly
 
-Όλες οι βιβλιοθήκες μπορούν να εγκατασταθούν μέσω του `requirements.txt`:
+## Οδηγίες Χρήσης
+
+1. **Κλωνοποίηση repository**
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/<username>/admie-renewable-energy-data.git
+cd admie-renewable-energy-data
+
